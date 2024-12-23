@@ -1,7 +1,8 @@
-## 2. Damerau–Levenshtein distance
+# Damerau–Levenshtein distance
 The Damerau–Levenshtein distance is a measure of the similarity between two strings, which takes into account the number of insertion, deletion, substitution, and transposition operations needed to transform one string into the other.
 <br><br>
-Algorithm: The following procedure outlines the steps to calculate the Damerau–Levenshtein distance between two strings:
+## Algorithm:
+The following procedure outlines the steps to calculate the Damerau–Levenshtein distance between two strings:
 <br><br>
 Inputs: a(string1) and b(string2)
 <br><br>
@@ -17,6 +18,7 @@ j = number between 0 and n
 <br><br>
 ![](https://raw.githubusercontent.com/MeysamAgah/NLP_learning/refs/heads/main/pics/2.1.jpg)
 <br><br>
+## Example
 Here's an example of how algorithm works:<br><br>
 Consider our goal is calculate distance between words kitten and sitting.<br>
 Step 1: we initialize matrix and fill values with 0<br>
@@ -90,7 +92,7 @@ g & 7 & 7 & 6 & 5 & 4 & 4 & 3
 \end{bmatrix}$$
 
 <br><br>
-
+## Implementation
 Python code to calculate Damerau–Levenshtein distance of two strings
 ```python
 def d_l_distance(a,b):
@@ -122,7 +124,7 @@ def d_l_distance(a,b):
 ```
 <br><br>
 
-**References:**
+## References
 <br>
 https://www.geeksforgeeks.org/damerau-levenshtein-distance
 <br>
