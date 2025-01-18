@@ -5,3 +5,5 @@ This repository serves as my structured notebook for Natural Language Processing
 <br><br>
 ## Contents
 [Damerau–Levenshtein distance](https://github.com/MeysamAgah/NLP_learning/blob/main/Damerau%E2%80%93Levenshtein%20distance.md)
+<br>
+[NLTK POS TAG Categories](https://github.com/MeysamAgah/NLP_learning/blob/main/NLTK_pos_tag_categories.md)
